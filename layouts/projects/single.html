@@ -22,7 +22,10 @@
   </div>
 
   <article>
-    <div style="display: grid; grid-template-columns: 10% 30%; padding: 10px">
+    <h1 class="post-title">
+        <a href="{{ .Params.Github }}">{{ .Title | markdownify }}</a>
+    </h1>
+    <!-- <div style="display: grid; grid-template-columns: 10% 30%; padding: 10px">
       <div style="margin-top: 50%; text-align: left; padding-right: 15%">
         <a href="{{ .Params.github }}">
           <svg
@@ -50,7 +53,7 @@
       <div style="text-align: left">
         <h1><a href="{{ .Permalink }}">{{ .Title | markdownify }} </a></h1>
       </div>
-    </div>
+    </div> -->
 
     {{ with .Params.Description }}
     <div class="post-excerpt">{{ . }}</div>
