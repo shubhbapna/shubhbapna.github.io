@@ -1,5 +1,5 @@
 ---
-title: "Hunting vulnerabilies in pipelines"
+title: "Hunting vulnerabilities in pipelines"
 date: 2023-06-20
 draft: false
 ---
